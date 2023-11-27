@@ -1,12 +1,13 @@
-﻿#include <iostream>
+#include <iostream>
 #include <string>
 using namespace std;
 
 class ProgrammingLanguage {
-public: //public потому что используется метод вне класса --> getDate()
+protected: //public потому что используется метод вне класса --> getDate()
     int year;
     string tipiz;
     string creator;
+public:
     ProgrammingLanguage(int y, string t, string c) { //конструктор класса, определяет свойства, инициализирует значения(присвоение начального значения)
         year = y;
         tipiz = t;
