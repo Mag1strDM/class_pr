@@ -3,7 +3,7 @@
 using namespace std;
 
 class ProgrammingLanguage {
-protected: //public потому что используется метод вне класса --> getDate()
+protected:
     int year;
     string tipiz;
     string creator;
